@@ -6,7 +6,7 @@ So let me break the record with machines.
 
 I wrote web crawlers to type and break the record.
 
-<img src="README.assets/monkey-type.gif" alt="monkey-type" style="zoom: 50%;" />
+<img src="README.assets/monkey-type.gif" alt="monkey-type" />
 
 # Instructions
 
@@ -35,8 +35,6 @@ conda install -c conda-forge selenium		# install with conda
 pip install selenium						# install with pip
 ```
 
-
-
 ### Jupyter Notebook
 
 Code are written in Jupyter Notebook, you can convert the notebook into pure python code, but remember to comment out the last line `browser.close()` if you want to see the result, or if you are running the notebook, don't run this line, otherwise browser closes and you will lose the result. 
@@ -49,4 +47,56 @@ Code are written in Jupyter Notebook, you can convert the notebook into pure pyt
 https://monkey-type.com/
 
 ![image-20200808014416218](README.assets/image-20200808014416218.png)
+
+### Usage
+
+There are 4 functions/methods, you can change the value of delay and method. 
+
+Each method is of different styles with different techniques.
+
+`delay` is for making the program more natural and more like a human typer. Typing too fast could be judged as invalid.
+
+**The fastest method: 3**
+
+**The most natural method: 4**
+
+#### Method 1: one_letter_at_a_time
+
+Find all words from the DOM, for each word and for each letter, send the letters one by one to the browser.
+
+But since all words are extracted at once and then entered, when words used up and loading more, the program needs some time to wait for loading and do the calculation, there are lags between each iteration.
+
+![letter-by-letter](README.assets/letter-by-letter.gif)
+
+#### Method 2: all_letters_at_a_time
+
+Similar to method 1.
+
+Find all words from the DOM, construct a long string, and enter the entire string at once. After each run, some new words would be loaded and some calculation needs to be performed, so there is some lag between each iteration.
+
+![all-letters](README.assets/all-letters.gif)
+
+#### Method 3: one_word_at_a_time
+
+This is the fastest method. Select the active word in every iteration and enter the entire word in each iteration.
+
+<img src="README.assets/monkey-type.gif" alt="monkey-type" />
+
+#### Method 4: one_word_letter_at_a_time
+
+Select the active word in every iteration and pop out each letter of the word, this is the most natural (human like) way.
+
+A `delay` of 0.02 was given to make the behavior more human-like, so that this run wasn't judged to be invalid.
+
+![natural](README.assets/natural.gif)
+
+
+
+
+
+
+
+
+
+
 
