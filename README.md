@@ -4,7 +4,7 @@ I am a slow typer, my max wpm (word per minute) is 63.
 
 So let me break the record with machines.
 
-I wrote web crawlers to type and break the record automatically.
+I wrote web crawlers to type and break the record.
 
 # Instructions
 
