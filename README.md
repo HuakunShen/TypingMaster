@@ -21,5 +21,7 @@ Code are written in Jupyter Notebook, you can convert the notebook into pure pyt
 
 https://monkey-type.com/
 
+![monkey-type](README.assets/monkey-type.gif)
+
 ![image-20200808014416218](README.assets/image-20200808014416218.png)
 
