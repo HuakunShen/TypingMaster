@@ -1,0 +1,46 @@
+name: web
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - beautifulsoup4=4.9.1=py38_0
+  - brotlipy=0.7.0=py38h64e0658_1000
+  - ca-certificates=2020.6.24=0
+  - certifi=2020.6.20=py38_0
+  - cffi=1.14.1=py38hed5b41f_0
+  - chardet=3.0.4=py38_1003
+  - cryptography=3.0=py38h52adbb4_0
+  - cssselect=1.1.0=py_0
+  - icu=58.2=h0a44026_3
+  - idna=2.10=pyh9f0ad1d_0
+  - libcxx=10.0.0=1
+  - libedit=3.1.20191231=h1de35cc_1
+  - libffi=3.3=hb1e8313_2
+  - libiconv=1.16=h1de35cc_0
+  - libxml2=2.9.10=h3b9e6c8_1
+  - libxslt=1.1.34=h83b36ba_0
+  - lxml=4.5.2=py38h63b7cb6_0
+  - ncurses=6.2=h0a44026_1
+  - openssl=1.1.1g=h1de35cc_0
+  - pip=20.2.1=py38_0
+  - pycparser=2.20=pyh9f0ad1d_2
+  - pyopenssl=19.1.0=py_1
+  - pyquery=1.4.0=py38_0
+  - pysocks=1.7.1=py38h32f6830_1
+  - python=3.8.5=h26836e1_0
+  - python_abi=3.8=1_cp38
+  - readline=8.0=h1de35cc_0
+  - requests=2.24.0=py_0
+  - selenium=3.141.0=py38h64e0658_1001
+  - setuptools=49.2.1=py38_0
+  - six=1.15.0=pyh9f0ad1d_0
+  - soupsieve=2.0.1=py_0
+  - sqlite=3.32.3=hffcf06c_0
+  - tk=8.6.10=hb0a8c7a_0
+  - urllib3=1.25.10=py_0
+  - wheel=0.34.2=py38_0
+  - xz=5.2.5=h1de35cc_0
+  - zlib=1.2.11=h1de35cc_3
+prefix: /Users/huakunshen/opt/anaconda3/envs/web
+
