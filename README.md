@@ -32,7 +32,7 @@ However, the main library used is `selenium`, you could also simply install `sel
 
 ```bash
 conda install -c conda-forge selenium		# install with conda
-pip install selenium										# install with pip
+pip install selenium						# install with pip
 ```
 
 
