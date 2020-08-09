@@ -6,7 +6,11 @@ So let me break the record with machines.
 
 I wrote web crawlers to type and break the record.
 
+![thumbnail-icon](README.assets/thumbnail-icon.png)
+
 <img src="README.assets/monkey-type.gif" alt="monkey-type" />
+
+### YouTube: https://youtu.be/3QJkQ7hzdRE
 
 # Instructions
 
@@ -45,8 +49,6 @@ Code are written in Jupyter Notebook, you can convert the notebook into pure pyt
 [code](./monkey-type.ipynb)
 
 https://monkey-type.com/
-
-![image-20200808014416218](README.assets/image-20200808014416218.png)
 
 ### Usage
 
