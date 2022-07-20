@@ -1,6 +1,6 @@
 # Typing Master
 
-I am a slow typer, my max wpm (word per minute) is 63.
+I am a slow typer, my max wpm (word per minute) is 109.
 
 So let me break the record with machines.
 
