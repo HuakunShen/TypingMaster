@@ -17,14 +17,7 @@ I wrote web crawlers to type and break the record.
 ### Chrome Driver
 
 The web crawler depends uses selenium python library which requires a browser driver, I used chrome driver.
-You can download the latest verison here: https://chromedriver.chromium.org/, or you can use the one in this repo if it's compatible with your chrome browser.
-I've uploaded the chrome driver for version 84.	
-
-| OS        | Driver                                                   |
-| --------- | -------------------------------------------------------- |
-| Windows32 | [chromedriver](./chromedrivers/chromedriver_win32.zip)   |
-| MacOS     | [chromedriver](./chromedrivers/chromedriver_mac64.zip)   |
-| Linux x64 | [chromedriver](./chromedrivers/chromedriver_linux64.zip) |
+You can download the latest verison here: https://chromedriver.chromium.org/.
 
 ### Environment
 
@@ -41,8 +34,7 @@ pip install selenium						# install with pip
 
 ### Jupyter Notebook
 
-Code are written in Jupyter Notebook, you can convert the notebook into pure python code, but remember to comment out the last line `browser.close()` if you want to see the result, or if you are running the notebook, don't run this line, otherwise browser closes and you will lose the result. 
-
+Code are written in Jupyter Notebook, you can convert the notebook into pure python code, but remember to comment out the last line `browser.close()` if you want to see the result, or if you are running the notebook, don't run this line, otherwise browser closes and you will lose the result.
 
 ## Monkey Type
 
@@ -52,7 +44,7 @@ https://monkey-type.com/
 
 ### Usage
 
-There are 4 functions/methods, you can change the value of delay and method. 
+There are 4 functions/methods, you can change the value of delay and method.
 
 Each method is of different styles with different techniques.
 
@@ -91,14 +83,3 @@ Select the active word in every iteration and pop out each letter of the word, t
 A `delay` of 0.02 was given to make the behavior more human-like, so that this run wasn't judged to be invalid.
 
 ![natural](README.assets/natural.gif)
-
-
-
-
-
-
-
-
-
-
-
